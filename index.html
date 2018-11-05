@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ST Tracker</title>
+</head>
+<body>
+
+<!--
+This site will allow the user to track stocks that it wishes to follow
+
+The user can choose to follow and track the trends of 12 stocks
+
+There will be different timelines of trends
+Basic will have
+    daily   this day will be higher than yesterday 
+        if current day close higher than yesterday close than green up arrow prints
+        else red down arrow will print
+    weekly  this week will be higher than yesterday
+    monthly this month will be higher than yesterday
+
+1st option
+    how many days up in a row       user can set how many days
+    how many weeks up in a row      user can set how many weeks
+    how many months up in a row
+    
+2nd option
+
+
+-----------------------------  landpage  ---------------------------------------
+
+user login or new user
+
+header "is you're portfolio up or down, check the trend of your stocks "
+
+site users will be an array called siteUser and contain objects of users
+
+login will check is user is in siteUser array
+
+
+
+
+
+-----------------------------      charts page       --------------------------------
+
+user stock picks to track will be put in a stockArray
+
+standard user has 9 stocks he can track
+
+user stock picks stored in object
+
+
+
+
+nasdaq stocks
+tracks top 25 companies by cap size
+
+s&p500 stocks
+tracks top 50 companies by cap size
+
+
+
+---------------------------------   functions       ----------------------------------
+
+-------  construction function to create users array of objects   ---------
+
+userArray = []
+
+//array<object> {firstName: string, lastName: string, email: string, password: string, tradexp: number, isPremium: boolean} =>object
+
+function  Adduser(firstName, lastName, email, ,password, trade_xp, isPremium) {
+    this.firstName: firstName,
+    this.lastName: 'lastName',
+    this.email: 'email',
+    this.password: 'password',
+    this.trade_xp: trade_xp,
+    this.isPremium: false 
+}
+
+var johnSmith = new Adduser('John', 'Smith', email, 20, false);
+
+siteUsher.push(johnSmith);
+
+-------------------------------------------------------------------
+
+construction function to put user stock picks in a array of object
+
+
+
+-------------------------------- function
+function authenticateUser
+
+function pullStockInfo  need the high, low, close
+
+function pullStockChart 
+
+funtion drawTables
+
+function putStockInfo into table
+
+function putStockChart into table
+
+
+-->
+
+<script src =./main.js></script>
+</body>
+</html>

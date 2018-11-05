@@ -1,0 +1,153 @@
+.container {
+    margin: 20px, auto;
+    display: grid;
+}
+
+.header {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+.mainContent {
+    height:500px;
+    background-color: rgb(37, 74, 196 )    
+}
+
+.headerMainContent {
+    
+    text-align: center;
+    color: white;
+}
+
+#leftMain {
+    color: aliceblue;
+    background-image: url(../assets/1_xR4m0oOKz_jRgQU4Oge53g.jpeg);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+   
+}
+
+#rightMain{
+    align-content: center;
+    color: aliceblue;
+}
+
+
+.subContent h6 {
+    padding: 15px;
+    text-align: center;
+}
+
+.subContent img {
+    display: block;
+    padding: 10px;
+    
+}
+
+.login-form{
+    width: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+    margin-right: 40px;
+}
+
+.login input {
+    display: block;
+    width: 200px;
+    padding: 30px
+}
+
+
+.main-footer {
+    background-color: rgb(255, 255, 255);
+    max-width: auto;
+    height: 100px;
+}
+
+.footer {
+    background-color: rgb(255,255,255);
+    max-width: auto;
+    height: 300px;
+}
+
+.arrow {
+    padding: 15px;
+
+}
+
+.navbar-custom{
+    margin-right: 5px;
+    width: 130px;
+}
+
+#search{
+    margin-right: 50px;
+    color: black;
+    width: 200px;
+    
+}
+
+.page-container{
+    margin: 20px, auto;
+}
+.page-header{
+    text-align: center;
+    background-color: rgb(37, 74, 196 );
+    color: white;
+    
+}
+
+.page-container h5{
+    text-align: center;
+}
+.d-inline-block{
+    margin: 20px;
+    
+}
+
+.info-content{
+    background-color: rgb(0, 60, 255);
+    
+}
+
+.info-left{
+    color: white;
+    margin: 20px, auto;
+    padding-left: 150px;
+    text-align: left;
+    
+}
+
+.info-left h3{
+    text-align: center;
+}
+
+.info-right{
+    color: white;
+    margin: 20px, auto;
+}
+
+.info-right h3{
+    text-align: center;
+}
+
+.arrow-table{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.add-user-form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.add-user-input{
+    display: table-row;
+
+}
